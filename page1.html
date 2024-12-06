@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=fitness_center" />
+
+    <link rel="stylesheet" href="page1.css">
+    <script src="Search.js" defer></script>
+ 
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper" id="background">
+        <nav class="nav">
+            <div class="nav-logo">
+                <p id="logo" onclick="location.href='HomePage.html'">QuoteTemple</p>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#" class="link active">Home</a></li>
+                    <li><a href="#" class="link">Topics</a></li>
+                    <li><a href="Favourite.html" class="link" >Favourites</a></li>
+                    <li><a href="#" class="link">About</a></li>
+                </ul>
+            </div>
+            <!-- <div class="nav-button">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                <button class="btn" id="registerBtn" onclick="register()">Sign Up</button>
+            </div> -->
+            <div class="nav-menu-btn">
+                <!-- <i class="bx bx-menu" onclick="myMenuFunction()"></i> -->
+            </div>
+
+                <!-- <div class="search">
+                    <input type="text" placeholder="Search..." class="input" id="input-searchbar"/>
+                    <button class="button" onclick="search()">Search</button>
+                </div>
+     -->
+                <div class="nav-button">
+                    <button class="btn white-btn" id="loginBtn"  onclick="location.href='HomePage.html'">Sign In</button>
+                    <button class="btn" id="registerBtn"  onclick="location.href='HomePage.html'">Sign Up</button>
+                </div>
+
+
+ 
+        </nav>
+
+
+    </div>
+
+    <div id="searchbar">
+        <div class="search">
+            <input type="text" placeholder="Search..." class="input" id="input-searchbar"/>
+            <button class="button" onclick="search()">Search</button>
+        </div>
+
+    </div>
+
+    <h2>Famous</h2>
+
+    <div class="container">
+        <div class="gallery" id="gallery">
+            <!-- <img src="https://poemanalysis.com/wp-content/uploads/2021/01/Oscar-Wilde-Portrait.jpg" class="item hidden"></img> -->
+            <!-- <img src="https://colorem.wordpress.com/wp-content/uploads/2018/02/emilyd-03small1.jpg?w=763&h=1000" class="item"></img>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/George_Eliot%2C_por_François_D%27Albert_Durade.jpg/1200px-George_Eliot%2C_por_François_D%27Albert_Durade.jpg" class="item"></img>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Ralph_Waldo_Emerson_by_Josiah_Johnson_Hawes_1857.jpg" class="item"> </img>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Ralph_Waldo_Emerson_by_Josiah_Johnson_Hawes_1857.jpg" class="item"></img>
+            <img src="https://www.laphamsquarterly.org/sites/default/files/styles/contributor_block/public/images/contributor/plato_360x450.jpg?itok=LVdozI3b" class="item"></img> -->
+
+        </div>
+    </div>
+    <div id="favorites-section">
+        <h2>Favorites</h2>
+        <div id="favorites-container"></div>
+      </div>
+      
+      <script src="Search.js" defer></script>
+   
+      
+    
+</body>
+</html>
